@@ -30,5 +30,5 @@ app.use('/auth', authenticate);
  */
 
 app.listen(process.env.PORT, () => {
-  Logger.warning(`Server started on port ${process.env.PORT}`);
+  Logger.warn(`Server started on port ${process.env.PORT}`);
 });
